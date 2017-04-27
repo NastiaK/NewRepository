@@ -8,14 +8,18 @@ while True:
         print(chooseop)
         if chooseop == 1:
             print(a+b)
+            break
         elif chooseop == 2:
             print(a-b)
+            break
         elif chooseop == 3:
             print(a*b)
+            break
         elif chooseop == 4:
             if b == 0:
                 print("Can't divide by zero")
             else:
                 print(a/b)
+                break
         elif (chooseop != 1) & (chooseop != 2) & (chooseop != 3) & (chooseop != 4):
             print("Invalid operation number")
