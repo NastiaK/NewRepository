@@ -23,5 +23,6 @@ def main():
     sum=poly.calculate(polynums)
     print("Answer is ", sum)
 
+    
 if __name__ == "__main__":
     main()
