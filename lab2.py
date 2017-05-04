@@ -6,4 +6,4 @@ while (ans ** 2 != number) & (ans ** 2 != prevans):
     prevans=ans
     ans = 0.5 * (ans + number / ans)
 
-print("Answer is ", ans)
+print("Answeris ", ans)
