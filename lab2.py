@@ -1,4 +1,4 @@
-number = float(input("Enter number you want to find square root for "))
+number = float(input("Enter number to find square root for "))
 ans = 1.0
 prevans=0
 
