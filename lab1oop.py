@@ -27,7 +27,7 @@ def main():
         chooseop = 1
         calc=Calculations(a, b)
         while (chooseop == 1) | (chooseop == 2) | (chooseop == 3) | (chooseop == 4):
-            chooseop = int(input("Enter 1 for addition, 2 for subtraction, 3 for multiplication and 4 for division "))
+            chooseop = int(input("Enter 1 for addition, 2 for subtraction, 3for multiplication and 4 for division "))
             print(chooseop)
             if chooseop == 1:
                 calc.add()
